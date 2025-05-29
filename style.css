@@ -1,0 +1,42 @@
+h1, h2, h3, p {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Oswald, sans-serif;
+}
+
+p {
+    font-weight: 300;
+}
+
+.cover-image {
+    display: block;
+    width: 90vw;
+    height: 90vh;
+    object-fit: fill;
+}
+
+.carousel-item > img {
+    height: 75vh;
+    object-fit: cover;
+}
+
+section, html {
+    scrollbar-width: none !important;
+}
+
+.oswald-font {
+    font-family: Oswald, sans-serif !important;
+}
+
+html::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+}
+
+.block-text {
+    display: block;
+    margin: 1em 0;
+    padding: 0.5em;
+    text-align: justify;
+    width: 100%;
+    font-family: Oswald, sans-serif;
+}
